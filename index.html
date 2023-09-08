@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word-Magic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <p>Type in Your Words.</p>
+            <input type="text" class="input-text" value="">
+            <div class="buttons">
+
+                <button class="btn uppercase" onclick="makeuppercase()">ABC</button>
+                <button class="btn smallercase" onclick="makelowercase()">abc</button>
+                <button class="btn firstCapital" onclick="firstCapital()">Abc</button>
+                <button class="btn bold" onclick="makebold()"><b>ABC</b></button>
+                <button class="btn italic" onclick="makeitalic()"><i>ABC</i></button>
+                <button class="btn underlined" onclick="makeuderline()"><u>ABC</u></button>
+            </div>
+            <div class="display"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
